@@ -13,3 +13,4 @@ gem install lolcat
 apt install figlet
 pkg install fish -y
 apt update
+apt upgrade
