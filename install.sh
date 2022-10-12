@@ -1,5 +1,6 @@
 mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','/','-','HOME','UP','END'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT']]" >> $HOME/.termux/termux.properties && termux-reload-settings
 
+apt update && apt upgrade
 pkg install -y python
 pkg install -y python2
 pkg install -y python3
